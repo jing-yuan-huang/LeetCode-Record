@@ -15,8 +15,8 @@ class Solution:
             return False 
         if self.isSameTree(p.left,q.left) == False:
             return False
-        elif self.isSameTree(p.right,q.right) == False:
+        if self.isSameTree(p.right,q.right) == False:
             return False
-        else:
-            return True
+   
+        return True
         
